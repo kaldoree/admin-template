@@ -10,4 +10,14 @@ public class HomeController {
     public String indexPage() throws Exception {
         return "index";
     }
+
+    @RequestMapping("sample/main")
+    public String sampleMain() throws Exception {
+        return "sample/main";
+    }
+
+    @RequestMapping("deok")
+    public String deokPage() throws Exception {
+        return "deok";
+    }
 }
